@@ -1637,7 +1637,7 @@ a:focus {
     align-items: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
 }
 .it-1{
     grid-area: a;
@@ -1658,7 +1658,7 @@ a:focus {
     padding: 20px;
 }
 
-@media screen and (max-width:1432px){
+@media  (max-width:1432px){
     .grid-container1{
      /* grid-template-columns: repeat(auto-fit, 186px); */
     grid-template-columns: repeat(3, 1fr);
@@ -1670,7 +1670,7 @@ a:focus {
     
 }
 
-@media screen and (max-width:660px){
+@media (max-width:660px){
   .grid-container1{
     /* grid-template-columns: repeat(auto-fit, 186px); */
     grid-template-columns: repeat(2, 1fr);
