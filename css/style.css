@@ -846,9 +846,6 @@ a:focus {
     border-color: #EF233C;
 }
 
-.portfolio .portfolio-item {
-    position: relative;
-}
 
 .portfolio .portfolio-wrap {
     position: relative;
@@ -1381,6 +1378,7 @@ a:focus {
     .contact .contact-form {
         padding: 90px 0;
     }
+    
 }
 
 
@@ -1571,6 +1569,21 @@ a:focus {
 .footer .copyright p a:hover {
     color: #ffffff;
 }
+@media (min-width: 460px) and (max-width: 768px){
+    .portfolio-item{
+        height: 500px;
+    }
+}
+
+.portfolio .portfolio-item {
+    position: relative;
+}
+
+@media(min-width:768px){
+    .portfolio .portfolio-item {
+        height: 375px;
+    }
+}
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
@@ -1589,6 +1602,9 @@ a:focus {
         line-height: 16px;
         padding: 0 5px;
     }
+    .portfolio-item{
+        height: 375px;
+        }
 }
 
 
