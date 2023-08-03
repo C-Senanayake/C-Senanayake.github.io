@@ -1660,11 +1660,9 @@ a:focus {
 
 @media  (max-width:1432px){
     .grid-container1{
-     /* grid-template-columns: repeat(auto-fit, 186px); */
     grid-template-columns: repeat(3, 1fr);
     }
     .grid-container2,.grid-container3{
-         /* grid-template-columns: repeat(auto-fit, 186px); */
         grid-template-columns: repeat(2, 1fr);
     }
     
@@ -1672,7 +1670,6 @@ a:focus {
 
 @media (max-width:660px){
   .grid-container1{
-    /* grid-template-columns: repeat(auto-fit, 186px); */
     grid-template-columns: repeat(2, 1fr);
   }
 }
