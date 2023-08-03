@@ -1539,7 +1539,7 @@ a:focus {
 .footer .copyright {
     position: relative;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding-top: 25px;
     padding-bottom: 25px;
 }
