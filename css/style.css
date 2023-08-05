@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(#04048a, rgba(90, 12, 21, 0.95)), url(../img/hero-bg.jpg);
+    background: url(../img/background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -522,7 +522,7 @@ a:focus {
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 400;
-    color: #fe2020;
+    color: grey;
 }
 
 .about .skill-name p:last-child {
